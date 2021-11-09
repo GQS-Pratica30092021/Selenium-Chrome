@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package seleniumchrome;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -28,7 +23,6 @@ public class seleniumChrome_Google {
         WebElement element = driver.findElement(By.name("q"));
         element.sendKeys(pesquisa+"\n");
         System.out.println(pesquisa);
-        //driver.close();
     }
 }
 
